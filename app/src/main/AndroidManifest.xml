@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.all_in_one_calc">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/calc_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/calc_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.All_in_one_calc"
+        tools:targetApi="31">
+        <activity
+            android:name=".SaSphere"
+            android:exported="false" />
+        <activity
+            android:name=".SaCylinder"
+            android:exported="false" />
+        <activity
+            android:name=".SaCone"
+            android:exported="false" />
+        <activity
+            android:name=".SaCuboid"
+            android:exported="false" />
+        <activity
+            android:name=".SaCube"
+            android:exported="false" />
+        <activity
+            android:name=".SurfaceAreaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AreaRhombus"
+            android:exported="false" />
+        <activity
+            android:name=".AreaTrapezium"
+            android:exported="false" />
+        <activity
+            android:name=".AreaParallelogram"
+            android:exported="false" />
+        <activity
+            android:name=".AreaTriSimp"
+            android:exported="false" />
+        <activity
+            android:name=".AreaHeron"
+            android:exported="false" />
+        <activity
+            android:name=".AreaTriangle"
+            android:exported="false" />
+        <activity
+            android:name=".AreaCircle"
+            android:exported="false" />
+        <activity
+            android:name=".AreaSquare"
+            android:exported="false" />
+        <activity
+            android:name=".AreaRectangle"
+            android:exported="false" />
+        <activity
+            android:name=".VolPyramid"
+            android:exported="false" />
+        <activity
+            android:name=".VolSphere"
+            android:exported="false" />
+        <activity
+            android:name=".VolCylinder"
+            android:exported="false" />
+        <activity
+            android:name=".VolCone"
+            android:exported="false" />
+        <activity
+            android:name=".AreaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_area"
+            android:theme="@style/Theme.All_in_one_calc.NoActionBar" />
+        <activity
+            android:name=".VolCuboid"
+            android:exported="false" />
+        <activity
+            android:name=".VolCube"
+            android:exported="false" />
+        <activity
+            android:name=".VolumeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MathsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BmiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_text_size">23sp</dimen>
+    <dimen name="eighteen_size">18sp</dimen>
+    <dimen name="margin_thirty">75dp</dimen>
+    <dimen name="margin_text_result">35sp</dimen>
+    <dimen name="lets_size">25sp</dimen>
+
+    <dimen name="margin_sixteen">16dp</dimen>
+    <dimen name="padding_eight">8dp</dimen>
+    <dimen name="btn_txt_size">24sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_fifty">40dp</dimen>
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="margin_ten">10dp</dimen>
+    <dimen name="eleven_size">12sp</dimen>
+
+
+</resources>

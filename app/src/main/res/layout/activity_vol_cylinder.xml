@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolCuboid"
+    android:background="#FAF0D7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_vol_of_cone"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/vol_cylinder_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:hint="@string/enter_radius"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/vol_cylinder_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:hint="@string/enter_height"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:textColorHint="@color/gray"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vol_cylinder_calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:text="@string/calculate"
+        android:background="@color/bmi_calc"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/vol_cylinder_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        tools:text="hello"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vol_cylinder_clr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:text="@string/vol_clear"
+        android:background="@color/bmi_calc"
+        android:textColor="@color/white"
+        />
+
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/ic_back_black"
+        android:contentDescription="@string/to_go_back" />
+
+
+</RelativeLayout>

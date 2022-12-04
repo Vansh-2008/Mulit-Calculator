@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathsActivity"
+    android:background="@drawable/quiz_app_bg">
+
+    <EditText
+        android:id="@+id/number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/margin_sixteen"
+        android:layout_marginTop="@dimen/margin_sixteen"
+        android:layout_marginEnd="@dimen/margin_sixteen"
+        android:layout_marginBottom="@dimen/margin_sixteen"
+        android:background="@color/edit_text_border_color"
+        android:hint="@string/edit_text_hint"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:padding="@dimen/padding_eight"
+        android:textColor="@color/black"
+        android:textColorHint="@color/purple_700">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_one"
+                android:text="@string/btn_one"
+                android:onClick="operationFunction"
+                style="@style/button_style" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_two"
+                android:text="@string/two"
+                android:onClick="operationFunction"
+                style="@style/button_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_three"
+                android:onClick="operationFunction"
+                android:text="@string/three"
+                style="@style/button_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_div"
+                android:onClick="operationFunction"
+                android:text="@string/divide"
+                style="@style/button_style"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_four"
+                android:onClick="operationFunction"
+                android:text="@string/four"
+                style="@style/button_style" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_five"
+                android:onClick="operationFunction"
+                android:text="@string/five"
+                style="@style/button_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_six"
+                android:onClick="operationFunction"
+                android:text="@string/six"
+                style="@style/button_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_sub"
+                android:onClick="operationFunction"
+                android:text="@string/sub"
+                style="@style/button_style"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_seven"
+                android:text="@string/seven"
+                android:onClick="operationFunction"
+                style="@style/button_style" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_eight"
+                android:text="@string/eight"
+                android:onClick="operationFunction"
+                style="@style/button_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_nine"
+                android:text="@string/nine"
+                android:onClick="operationFunction"
+                style="@style/button_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_add"
+                android:text="@string/add"
+                android:onClick="operationFunction"
+                style="@style/button_style"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_clr"
+                android:text="@string/clear"
+                android:onClick="operationFunction"
+                style="@style/button_style" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_zero"
+                android:text="@string/zero"
+                android:onClick="operationFunction"
+                style="@style/button_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_point"
+                android:text="@string/dot_txt"
+                android:onClick="operationFunction"
+                style="@style/button_style"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_multi"
+                android:text="@string/multi"
+                android:onClick="operationFunction"
+                style="@style/button_style"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/back_btn"
+                android:layout_width="48dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_back_black"
+                android:contentDescription="@string/to_go_back" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_equal"
+                android:text="@string/equal"
+                android:onClick="operationFunction"
+                style="@style/button_style"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

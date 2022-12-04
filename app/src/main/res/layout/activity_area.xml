@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolumeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/common_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/which_shape"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/eighteen_size"/>
+
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:background="@drawable/ic_back_black"
+        android:contentDescription="@string/to_go_back" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/area_sq"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/area_shape_btn"
+        android:layout_margin="@dimen/eleven_size"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:text="@string/square"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/area_rec"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/area_shape_btn"
+        android:layout_margin="@dimen/eleven_size"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:text="@string/rectangle"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/area_triangle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/area_shape_btn"
+        android:layout_margin="@dimen/eleven_size"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:text="@string/triangle"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/area_circle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/area_shape_btn"
+        android:layout_margin="@dimen/eleven_size"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:text="@string/circle"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/area_parallelogram"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/area_shape_btn"
+        android:layout_margin="@dimen/eleven_size"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:text="@string/parallelogram"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/area_trapezium"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/area_shape_btn"
+        android:layout_margin="@dimen/eleven_size"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:text="@string/trapezium"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/area_rhombus"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/area_shape_btn"
+        android:layout_margin="@dimen/eleven_size"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:text="@string/rhombus"/>
+
+</LinearLayout>

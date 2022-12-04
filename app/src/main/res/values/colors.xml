@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="vol_btn">#21E1E1</color>
+    <color name="btn_text">#F0EABE</color>
+    <color name="area_btn">#7DCE13</color>
+    <color name="surface_btn">#F66B0E</color>
+    <color name="maths_btn">#9900F0</color>
+    <color name="bmi_btn">#FF1818</color>
+    <color name="bmi_calc">#0E185F</color>
+    <color name="gray">#1A374D</color>
+    <color name="edit_text_border_color">#F6FFA4</color>
+    <color name="btn_color">#0E185F</color>
+    <color name="pink">#FFA8A8</color>
+    <color name="colorPrimary">#79DAE8</color>
+    <color name="colorPrimaryDark">#2155CD</color>
+    <color name="colorAccent">#36AE7C</color>
+    <color name="vol_shape_btn">#F24C4C</color>
+    <color name="hintText">#519259</color>
+    <color name="area_shape_btn">#0096FF</color>
+    <color name="orange">#EF5B0C</color>
+    <color name="surface_area_btn">#1CD6CE</color>
+
+</resources>

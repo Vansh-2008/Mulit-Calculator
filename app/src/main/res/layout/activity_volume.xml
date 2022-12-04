@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolumeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/blend_2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/which_shape"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/eighteen_size"/>
+
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_back_black"
+        android:contentDescription="@string/to_go_back" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vol_cube"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/vol_shape_btn"
+        android:layout_margin="@dimen/margin_ten"
+        android:textColor="@color/white"
+        android:text="@string/cube"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vol_cuboid"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/vol_shape_btn"
+        android:layout_margin="@dimen/margin_ten"
+        android:textColor="@color/white"
+        android:text="@string/cuboid"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vol_cone"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/vol_shape_btn"
+        android:layout_margin="@dimen/margin_ten"
+        android:textColor="@color/white"
+        android:text="@string/cone"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vol_cylinder"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/vol_shape_btn"
+        android:layout_margin="@dimen/margin_ten"
+        android:textColor="@color/white"
+        android:text="@string/cylinder"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vol_sphere"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/vol_shape_btn"
+        android:layout_margin="@dimen/margin_ten"
+        android:textColor="@color/white"
+        android:text="@string/sphere"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vol_pyramid"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/vol_shape_btn"
+        android:layout_margin="@dimen/margin_ten"
+        android:textColor="@color/white"
+        android:text="@string/pyramid"/>
+
+</LinearLayout>

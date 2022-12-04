@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    
+    <style name="button_style">
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/vol_btn</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/btn_color</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_marginLeft">@dimen/padding_eight</item>
+        <item name="android:layout_marginStart">@dimen/padding_eight</item>
+        <item name="android:layout_marginTop">@dimen/padding_eight</item>
+        <item name="android:layout_marginBottom">@dimen/padding_eight</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/btn_txt_size</item>
+    </style>
+</resources>

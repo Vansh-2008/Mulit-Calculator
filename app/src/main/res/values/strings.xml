@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Multi Calculator</string>
+    <string name="volume">Volume</string>
+    <string name="area">Area</string>
+    <string name="surface_area">Surface Area</string>
+    <string name="more_features_coming_soon">More features coming soon..</string>
+    <string name="by_vansh">By-Vansh</string>
+    <string name="what_you_want_to_do_in_all_in_one_calculator">What you want to do/calcuate in Multi Calculator?</string>
+    <string name="bmi">BMI</string>
+    <string name="str_weight">Enter Weight in KGs</string>
+    <string name="str_height">Enter Height in CMs</string>
+    <string name="calculate">Calculate</string>
+    <string name="str_lets_calculate">Lets calculate your BMI !</string>
+    <string name="maths">Maths</string>
+
+    <string name="edit_text_hint">Enter number</string>
+    <string name="btn_one">1</string>
+    <string name="dot_txt">.</string>
+    <string name="equal">=</string>
+    <string name="zero">0</string>
+    <string name="clear">Clr</string>
+    <string name="add">+</string>
+    <string name="nine">9</string>
+    <string name="eight">8</string>
+    <string name="seven">7</string>
+    <string name="sub">-</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="divide">/</string>
+    <string name="multi">x</string>
+    <string name="which_shape">Which Shape :</string>
+    <string name="cube">Cube</string>
+    <string name="cuboid">Cuboid</string>
+    <string name="cone">cone</string>
+    <string name="sphere">Sphere</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="pyramid">Pyramid</string>
+    <string name="cube_volume_calculator">Cube Volume Calculator</string>
+    <string name="enter_side_length">Enter side length</string>
+    <string name="none">.</string>
+    <string name="calculate_vol_of_cuboid">Calculate Volume Of Cuboid</string>
+    <string name="enter_length">Enter Length</string>
+    <string name="enter_width">Enter Width</string>
+    <string name="enter_height">Enter Height</string>
+    <string name="vol_clear">Clear</string>
+    <string name="title_activity_area">AreaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="square">square</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="triangle">Triangle</string>
+    <string name="circle">Circle</string>
+    <string name="trapezium">Trapezium</string>
+    <string name="rhombus">Rhombus</string>
+    <string name="parallelogram">Parallelogram</string>
+    <string name="to_go_back">To go back</string>
+    <string name="calculate_vol_of_cone">Calulate Volume of Cone</string>
+    <string name="enter_radius">Enter Radius</string>
+    <string name="sphere_volume_calculator">Calculate Volume of Sphere</string>
+    <string name="enter_base_length">Enter Base Length</string>
+    <string name="enter_base_width">Enter Base Width</string>
+    <string name="cal_vol_of_rec">Calculate Area of Rectangle</string>
+    <string name="cal_area_of_circle">Calculate Area Of Circle</string>
+    <string name="cal_vol_of_sq">Calculate Area Of Square</string>
+    <string name="str_side_a">Enter Side A</string>
+    <string name="str_side_b">Enter Side B</string>
+    <string name="str_side_c">Enter Side C</string>
+    <string name="let_s_calculate_triangle_area">Let\'s Calculate Triangle Area</string>
+    <string name="calcualte_triangle_area">Calcualte Triangle Area</string>
+    <string name="calculate_triangle_area">Calculate Triangle Area</string>
+    <string name="choose_method">Choose method</string>
+    <string name="simple_calculate">Simple Calculate</string>
+    <string name="heron_s_formula_calculate">Heron\'s Formula Calculate</string>
+    <string name="enter_base">Enter Base</string>
+    <string name="let_s_calculate_area_of_parallelogram">Let\'s Calculate Area Of Parallelogram</string>
+    <string name="let_s_calculate_area_of_trapezium">Let\'s Calculate Area Of Trapezium</string>
+    <string name="enter_side_b">Enter Side B</string>
+    <string name="enter_side_a">Enter Side A</string>
+    <string name="enter_diagnol_1">Enter Diagonal 1</string>
+    <string name="enter_diagnol_2">Enter Diagonal 2</string>
+    <string name="calculate_surface_area_of_cube">Calculate Surface Area of Cube</string>
+    <string name="calculate_surface_area_of_cuboid">Calculate Surface Area of Cuboid</string>
+    <string name="calculate_surface_area_of_cone">Calculate Surface area of Cone</string>
+    <string name="calculate_surface_area_of_cylinder">Calculate Surface Area of Cylinder</string>
+    <string name="calculate_surface_area_of_sphere">Calculate Surface Area of Sphere</string>
+
+
+</resources>
